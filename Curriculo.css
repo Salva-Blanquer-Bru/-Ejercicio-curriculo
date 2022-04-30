@@ -1,0 +1,249 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: black;
+  font-size: 14px;
+  line-height: 22px;
+
+  
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+
+
+.resume .seccion_izquierda {
+  width: 280px;
+  background: #335384;
+}
+
+.resume .seccion_izquierda .resume_perfil {
+  width: 100%;
+  height: 280px;
+}
+
+.resume .seccion_izquierda .resume_perfil img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .seccion_izquierda .resume_contenido {
+  padding: 0 25px;
+}
+
+.resume .titulo {
+  margin-bottom: 20px;
+}
+
+.resume .seccion_izquierda .bold {
+  color: white;
+}
+
+
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.resume .seccion_izquierda .resume_item:last-child,
+.resume .resume_seccion_derecha .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume .seccion_izquierda ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+h2 {
+  background:#335384;
+  width: 250px;
+  height: 40PX;
+   color:white; 
+   font-weight:bold;
+      padding:10px;
+       text-align:center; 
+       font-size:18px
+
+} 
+
+h3 {
+  background:#335384;
+  width: 310px;
+  height: 40PX;
+   color:white; 
+   font-weight:bold;
+      padding:10px;
+       text-align:center; 
+       font-size:18px
+
+} 
+
+.resume .seccion_izquierda ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .seccion_izquierda ul li .icon {
+  width: 35px;
+  height: 35px;
+  color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+
+
+.resume .seccion_izquierda ul li .data {
+  color: white;
+}
+
+.resume .seccion_izquierda .resume_lenguajes ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .seccion_izquierda .resume_lenguajes ul li .lenguaje
+
+{
+  width: 25%;
+}
+
+.resume .seccion_izquierda .resume_lenguajes ul li .progreso_de_lenguaje {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+
+.resume .seccion_izquierda .resume_lenguajes ul li .porcentaje_lenguaje {
+  width: 15%;
+}
+
+.resume .seccion_izquierda .resume_lenguajes ul li .progreso_de_lenguaje
+ span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+.resume .seccion_izquierda .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.resume .resume_seccion_derecha {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.resume .resume_seccion_derecha .bold {
+  color: #0bb5f4;
+}
+
+.resume .resume_seccion_derecha .resume_experiencia ul,
+.resume .resume_seccion_derecha .resume_educacion ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+
+.resume .resume_seccion_derecha ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_seccion_derecha ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_seccion_derecha ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_seccion_derecha .resume_experiencia ul li:before,
+.resume .resume_seccion_derecha .resume_educacion ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.resume .resume_seccion_derecha .resume_experiencia ul li:after,
+.resume .resume_seccion_derecha .resume_educacion ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
+
+.resume .resume_seccion_derecha .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_seccion_derecha .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+
+.resume .resume_seccion_derecha .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.resume .resume_seccion_derecha .resume_hobby ul li:last-child:before {
+  display: none;
+}
